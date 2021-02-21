@@ -152,3 +152,13 @@ left: 15%;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
               0 10px 10px rgba(0, 0, 0, 0.22);            
 }
+#box1 p{
+    padding: 2px 2px 2px 2px;
+    margin: 2px;
+    font-size: 20px;
+}
+#box1 h1{
+    padding: 2px;
+    margin: 2px;
+    font-size: 25px;
+}
