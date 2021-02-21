@@ -68,7 +68,7 @@ nav {
 .icon{
     position: fixed;
     top: 50%;
-    left: 0px;
+    left: 5px;
     transform: translate(-50%);
     display: flex;
     flex-direction: column;
@@ -102,5 +102,53 @@ nav {
     padding-top: 10px;
     right: 10%;
     top: 0;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     z-index: -1;
+}
+.section-b{
+  background-color: #e2e1e0;
+  padding-top: 1px; 
+  display: inline-flex;
+  width: 100%;
+
+}
+.box1 {
+ width: 350px;
+ height: 500px;
+ background-color: #fff;
+ display: inline-block;
+ position: relative;
+ margin: 15px;
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+             0 1px 3px rgba(0, 0, 0, 0.12);
+transition: all 0.3s cubic-bezier(.25, .8,);
+margin-top: 50px;  
+left: 15%;
+}
+.box1:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+              0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+.photo{
+    width: 350px;
+    height: 250px;
+}
+.projects{
+    max-width: 200px;
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    text-decoration: none;
+    background: #01a3a4;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: serif;
+    border-radius: 8px;
+}
+#projects:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+              0 10px 10px rgba(0, 0, 0, 0.22);            
 }
